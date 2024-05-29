@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ToDo Form</title>
+    <link rel = "stylesheet" href = "style.css">
+</head>
+
+<body>
+    <div class = "container">
+        <h1>Todo Form</h1>
+        
+    </div>
+
+    <form id="todoForm">
+        <div class = "line1">
+            <p>Title : 
+                <input type="text" placeholder="Enter title" id="title">
+            </p>
+        </div>
+        <div class = "line2">
+            <p>Task: 
+                <input type="text" placeholder="Enter task" id="task">
+            </p>
+        </div>
+        <div class = "line3">
+            <button type="submit">Add Todo</button>
+        <button type="button" id="deleteAll">Delete all todos</button>
+        </div>
+        
+    </form>
+    <ol id="todos"></ol>
+    
+</body>
+<script src="script.js"></script>
+</html>
